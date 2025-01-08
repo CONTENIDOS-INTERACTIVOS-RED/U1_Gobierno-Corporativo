@@ -17,7 +17,7 @@ export default {
       },
     ],
     numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    tituloUnidad: 'Principios y estructuras del gobierno corporativo',
   },
   menuPrincipal: {
     menu: [
@@ -31,83 +31,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Fundamentos del gobierno corporativo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Título de segundo nivel',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Acordeón',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Slider',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Estructura del Gobierno Corporativo ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Estructuras de gobierno corporativo en el mundo',
             hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Audios',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -115,22 +54,9 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'Pilares del Gobierno Corporativo en Colombia',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Carrusel',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tablas',
-            hash: 't_3_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -170,109 +96,97 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Betancur A. (2013). Gobierno Corporativo: Una Comparación de Códigos de Gobierno en el mundo, Un modelo para empresas latinoamericanas familiares y no familiares 1. Revista Entramado Vol. 9 No. 2.',
+      link: 'http://www.scielo.org.co/pdf/entra/v9n2/v9n2a08.pdf',
+    },
+    {
+      referencia:
+        'Garzón, M. (2021). EL CONCEPTO DE GOBIERNO CORPORATIVO. Revista Científica "Visión de Futuro" - Facultad de Ciencias Económicas – UnaM.',
+      link: 'https://www.redalyc.org/journal/3579/357966632009/',
+    },
+    {
+      referencia:
+        'Haro-Sarango, A. (2021). Estructura de Gobierno Corporativo: Un aplicativo para la transparencia y mejora empresarial en Ecuador. Revista científica en ciencias sociales, 3(2), 111-121.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://scielo.iics.una.py/scielo.php?script=sci_arttext&pid=S2708-04122021000200111#B2',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Izquierdo, Et al. (2014). El gobierno corporativo como motor de la responsabilidad social corporativa. Universitat Jaume I. Servei de Comunicació i Publicacions.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/53258',
+    },
+    {
+      referencia:
+        'Mallin, CA. (2011). Manual sobre gobernanza corporativa internacional: análisis de países. Segunda edición, Edward Elgar Publishing, Cheltenham.',
+      link: 'http://dx.doi.org/10.4337/9781849808293',
+    },
+    {
+      referencia:
+        'Mastragelo, A. (2017). The financial aspects of corporate governance.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://alejandramastrangelo.com/wp-content/uploads/2017/12/Report-of-The-Committee-on-The-Financial-Aspects-of-Corporate-Governance.pdf',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Olcese, A. (2014). La responsabilidad social, motor del cambio empresarial: una propuesta española para Europa y América Latina. McGraw-Hill España.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/50281',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Fernández Izquierdo, M. Á. (2014). El gobierno corporativo como motor de la responsabilidad social corporativa. Castelló de la Plana, Spain: Universitat Jaume I. Servei de Comunicació i Publicacions.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/53258%20pag%2028?page=28',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Alta Gerencia',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'División de una compañía que se encarga de la gestión operativa diaria de la empresa.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Autorregulación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Capacidad de controlar las emociones y el comportamiento de acuerdo a las demandas de una situación. Es una habilidad que se desarrolla con el tiempo y que puede ayudar a mejorar la calidad de vida emocional, las relaciones interpersonales, la productividad y la toma de decisiones.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Comité Gerencial',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Grupo de personas que gestiona y formula las estrategias empresariales.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Diversidad de género',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'La diversidad de género es la posibilidad que tienen las personas de vivir, expresar y asumir su sexualidad, así como sus orientaciones, expresiones, preferencias e identidades sexuales.',
     },
     {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+      termino: 'GB',
+      significado: 'Gobierno Corporativo.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Informe Cadbury',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Fue el primer modelo de control interno del Reino Unido y es reconocido a nivel mundial. Su objetivo principal es abordar aspectos de gobierno corporativo y financieros y ha servido para dar certeza, sobre todo a aquellas empresas que cotizan en dichos mercados.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Junta Directiva',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Órgano de gobierno que se encarga de tomar decisiones y supervisar la estructura organizacional de una empresa u organización.',
     },
     {
-      termino: 'Tipología',
+      termino: 'OPA',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Oferta Pública De Adquisición. Es una operación en la que un grupo de personas o empresas ofrecen comprar las acciones de una empresa a sus accionistas. El precio de compra suele ser mayor al del mercado y se conoce como prima. Las opas pueden ser voluntarias u obligatorias, amistosas u hostiles.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Stakeholders',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Personas u organizaciones que tienen un interés en las actividades y resultados de una empresa.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Transparencia',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es la práctica de compartir información real, útil y comprensible con las partes interesadas de una organización. Esto incluye a empleados, clientes, proveedores y la comunidad en general.',
     },
   ],
   complementario: [

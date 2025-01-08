@@ -1,85 +1,110 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'NOMBRE TEMA 3'")
+  BannerInterno(:subTitulo="'3. Pilares del Gobierno Corporativo en Colombia'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    #t_3_1.titulo-segundo
-      h2 3.1 Carrusel
-    .row.justify-content-center.mb-5
-      .col-11.col-md-4.col-xl-5.pe-xl-8
-        figure.mb-4.mb-md-0
-          img(src='@/assets/componentes/test-img-carousel.png', alt='Texto que describa la imagen')
-      .col-11.col-md-8.col-xl-7
-        SlyderF(columnas="col-12 col-lg-6")
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 54 de 1924
-                p.text-center Permitió el matrimonio civil entre católicos que declaran  haberse separado de la Iglesia.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
+    p.mb-4 Los pilares del gobierno corporativo son principios esenciales que garantizan la dirección y control efectivos de las organizaciones. En Colombia, estos pilares promueven la transparencia, la equidad y la sostenibilidad empresarial. A continuación, se describen los principales pilares y sus características:
 
-    #t_3_2.titulo-segundo
-      h2 3.2 Tablas
-
-    .row
-      .col-xl-9
-        .tabla-a.mb-5
-          table
-            caption Leyenda de la tabla
-            thead
-              tr
-                th Ventajas
-                th Desafios
-            tbody
-              tr
-                td <strong>Flexibilidad de tiempo y lugar:</strong>Los estudiantes pueden acceder a los cursos desde cualquier lugar y en el momento que mejor se ajuste a su agenda.
-                td <strong>Autogestión   del tiempo:</strong>Requiere que los estudiantes sean disciplinados y tengan la capacidad de organizar su tiempo de manera efectiva.
-              tr
-                td <strong>Acceso global: </strong>Cualquier persona con conexión a internet puede acceder a una amplia gama de programas y cursos, sin importar su ubicación geográfica.
-                td <strong>Autogestión del tiempo: </strong>Falta de interacción cara a cara: La ausencia de contacto físico puede disminuir la sensación de comunidad y la interacción espontánea con compañeros e instructores.
-              tr
-                td <strong>Aprendizaje a ritmo propio: </strong>Los estudiantes pueden avanzar a su propio ritmo, revisando el material tantas veces como sea necesario.
-                td <strong>Requiere mayor motivación: </strong>La autonomía que ofrece el aprendizaje en línea también exige que los estudiantes mantengan su motivación sin la estructura tradicional de clases presenciales.
-              tr
-                td <strong>Variedad de recursos digitales: </strong>Los estudiantes tienen acceso a videos, documentos, foros, evaluaciones automatizadas y otros recursos interactivos que enriquecen la experiencia de aprendizaje.
-                td <strong></strong>Distracciones en el entorno personal: Al estudiar desde casa o en otros entornos no tradicionales, los estudiantes pueden enfrentarse a más distracciones que en un aula presencial.
-              tr
-                td <strong>Menor costo: </strong>El aprendizaje en línea suele ser más asequible, ya que elimina los costos de transporte, alojamiento y materiales impresos.
-                td <strong>Dependencia de la tecnología: </strong>Problemas técnicos, como una conexión a internet inestable o falta de acceso a dispositivos adecuados, pueden interrumpir el proceso de aprendizaje.
-    .row.material-complementario
-      h2 MATERIAL COMPLEMENTARIO
-      .col-12.col-md-6.col-lg-7
-        p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Nieto, A. (2019). Una introducción al derecho.
-      .col-12.col-md-6.col-lg-3.offset-lg-1
+    ImagenInfografica.color-secundario.mb-4
+      template(v-slot:imagen)
         figure
-          img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
+
+      .tarjeta.bg-white.p-4(x="49.5%" y="12%" numero="+")
+        .h5.mb-2 Transparencia 
+        p - Garantiza que la información financiera, operativa y estratégica esté disponible de manera oportuna y precisa. <br>- Fomenta la confianza de los accionistas, empleados, reguladores y otros grupos de interés. <br>- Incluye la rendición de cuentas y la presentación de informes claros sobre el desempeño corporativo.
+
+      .tarjeta.bg-white.p-4(x="75.5%" y="42%" numero="+")
+        .h5.mb-2 Responsabilidad
+        p - Los órganos de gobierno, como la junta directiva y la alta gerencia, rinden cuentas por sus decisiones y acciones. <br>- Asegura que las decisiones estén alineadas con los objetivos de la organización y los intereses de los accionistas.
+
+      .tarjeta.bg-white.p-4(x="66.5%" y="85.4%" numero="+")
+        .h5.mb-2 Equidad
+        p - Garantiza un trato justo a todos los accionistas e interesados, sin discriminación. <br>- Protege los derechos de los accionistas minoritarios, asegurando su participación equitativa en la toma de decisiones.
+
+      .tarjeta.bg-white.p-4(x="33.5%" y="85.4%" numero="+")
+        .h5.mb-2 Cumplimiento
+        p - Asegura que las operaciones empresariales se realicen conforme a las leyes, regulaciones y normas aplicables. <br>- Promueve altos estándares éticos y el respeto a las políticas internas de la empresa.
+
+      .tarjeta.bg-white.p-4(x="23.5%" y="44%" numero="+")
+        .h5.mb-2 Sostenibilidad
+        p - Integra principios sociales, ambientales y económicos en la estrategia empresarial. <br>- Asegura un enfoque de largo plazo para preservar el entorno y garantizar el bienestar de los grupos de interés.
+
+    h2 Estructura del gobierno corporativo en Colombia
+    p.mb-4 El gobierno corporativo en Colombia está estructurado en diversos componentes que buscan garantizar la transparencia, la equidad y la eficiencia en la gestión empresarial.
+
+    .row.position-relative.mb-5.py-4.bg-fondo-3.bg-full-width
+      div.px-4.px-md-5.py-md-3
+        SlyderF(columnas="col-12 col-lg-6 py-4 px-3")
+          div.custom-image-card.rounded-8px
+            img.mb-4(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen')
+            div.mb-4
+              p.text-bold.text-center Estructura de propiedad
+              p.text-small.px-4.mb-2 Define cómo se distribuyen las acciones entre los accionistas. <br>Influye en la toma de decisiones y el control de la empresa.
+          div.custom-image-card.rounded-8px
+            img.mb-4(src='@/assets/curso/unidad/img-33.png', alt='Texto que describa la imagen')
+            div.mb-4
+              p.text-bold.text-center Asamblea general 
+              p.text-small.px-4.mb-2 Órgano máximo de decisión donde los accionistas ejercen sus derechos, como la votación de decisiones clave y la elección de la junta directiva. <br>Garantiza un trato equitativo entre los accionistas, independientemente de su participación accionaria.
+          div.custom-image-card.rounded-8px
+            img.mb-4(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen')
+            div.mb-4
+              p.text-bold.text-center Junta directiva
+              p.text-small.px-4.mb-2 Encargada de supervisar la gestión empresarial y definir la estrategia. <br>Debe ser independiente, equilibrada y estar compuesta por miembros calificados que representen los intereses de los accionistas.
+
+          div.custom-image-card.rounded-8px
+            img.mb-4(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
+            div.mb-4
+              p.text-bold.text-center Alta gerencia
+              p.text-small.px-4.mb-2 Responsable de la gestión operativa diaria y de implementar las políticas definidas por la junta directiva.
+          div.custom-image-card.rounded-8px
+            img.mb-4(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
+            div.mb-4
+              p.text-bold.text-center Órganos de control
+              p.text-small.px-4.mb-2 Incluyen la revisoría fiscal y comités de auditoría, los cuales supervisan el cumplimiento normativo y la transparencia en la gestión.
+          div.custom-image-card.rounded-8px
+            img.mb-4(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
+            div.mb-4
+              p.text-bold.text-center Revelación de información
+              p.text-small.px-4.mb-2 Obliga a las empresas a divulgar información financiera y no financiera de forma transparente.
+          div.custom-image-card.rounded-8px
+            img.mb-4(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
+            div.mb-4
+              p.text-bold.text-center Grupos de interés
+              p.text-small.px-4.mb-2 Incluye empleados, proveedores, clientes y comunidades, quienes deben ser considerados en las decisiones empresariales.
+          div.custom-image-card.rounded-8px
+            img.mb-4(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
+            div.mb-4
+              p.text-bold.text-center Autorregulación
+              p.text-small.px-4.mb-2 Las empresas adoptan códigos de buen gobierno, manuales de ética y políticas internas que promueven las mejores prácticas.
+
+    h2 Diversidad en el gobierno corporativo
+    p.mb-4 La diversidad en los directorios es clave para mejorar la toma de decisiones y fomentar la innovación. En el contexto colombiano, incluir diversidad de género, edad, formación y origen étnico en las juntas directivas permite:
+    .row.mb-4
+      .col-12.col-xl-7(data-aos="fade-right")
+        .bg-verde.p-4.h-100(data-aos="fade-up")
+          .d-flex.mb-2
+            p •
+            p.mb-0 <b>Mayor innovación:</b> Las perspectivas diversas enriquecen las estrategias y soluciones.
+
+          .d-flex.mb-2
+            p •
+            p.mb-0 <b>Adaptabilidad: </b>Mejora la capacidad de respuesta ante cambios del mercado.
+          .d-flex.mb-2
+            p •
+            p.mb-0 <b>Equidad y representación: </b>Fomenta una cultura inclusiva que mejora la reputación de la empresa.
+          .d-flex.mb-2
+            p •
+            p.mb-0 <b>Desempeño financiero: </b>La diversidad está relacionada con un mejor rendimiento y sostenibilidad a largo plazo.
+      .d-none.d-xl-block.col-xl-5(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
+
+    .row.mb-4
+      .d-flex.align-items-center
+        div.d-flex.align-items-center.bg-amarillo.px-3.py-4
+          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-41.svg', alt='Texto que describa la imagen')
+          p.pe-xl-4.mb-0 La diversidad no solo es un imperativo ético, sino también un motor estratégico para la competitividad empresarial.
+
 
     .bg-full-width.border-top.actividad(style="background-color: #ebf1f5; border-top: 5px solid #f5c145 !important")
       .p-4.p-md-5
@@ -97,7 +122,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Sistemas numéricos y álgebra de Boole',
+      tema: 'Gobierno Corporativo',
       titulo: 'Ponte a prueba',
       introduccion:
         'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -105,29 +130,29 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto:
-            'El estado civil debe acreditarse mediante ______ oficiales, como el acta de nacimiento o matrimonio.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Cuál es el objetivo principal del Gobierno Corporativo?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Informes.',
+              texto:
+                'Regular únicamente los aspectos financieros de una empresa',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Documentos.',
+              texto:
+                'Establecer conexiones efectivas entre las áreas de una empresa',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Contratos.',
+              texto: 'Aumentar el control individual de los accionistas',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Declaraciones juradas.',
+              texto: 'Reducir la carga administrativa para los directivos',
               esCorrecta: false,
             },
           ],
@@ -136,29 +161,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            'El fallecimiento de una persona natural causa el ______ de su personalidad jurídica.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué áreas se conectan a través del Gobierno Corporativo?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Inicio.',
+              texto: 'Administración, gerencia, marketing y tecnología',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Mantenimiento.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Cese.',
+              texto:
+                'Administración, gerencia, accionistas, junta directiva, dueños y socios',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Gerencia, accionistas, recursos humanos y logística',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Incremento.',
+              texto: 'Junta directiva, socios, clientes y proveedores',
               esCorrecta: false,
             },
           ],
@@ -168,28 +192,29 @@ export default {
         {
           id: 3,
           texto:
-            'Una persona con capacidad de obrar plena puede ______ sus derechos sin restricciones.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Qué característica fundamental define al Gobierno Corporativo?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Transferir.',
+              texto: 'La ausencia de regulaciones formales',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ceder.',
+              texto:
+                'La delegación exclusiva de responsabilidades a los accionistas',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ejercer.',
+              texto:
+                'Un conjunto de prácticas que promueven transparencia y organización',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Renunciar.',
+              texto: 'La eliminación de controles financieros en la empresa',
               esCorrecta: false,
             },
           ],
@@ -198,29 +223,27 @@ export default {
         },
         {
           id: 4,
-          texto:
-            'Una empresa de consultoría en Derecho revisa los atributos de personalidad de las personas jurídicas en comparación con las naturales. Al estudiar los derechos, encuentra uno aplica a los dos tipos de persona. ¿Cuál de los siguientes es compartido tanto por personas naturales como jurídicas?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué órganos básicos componen el Gobierno Corporativo?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'La nacionalidad.',
-              esCorrecta: true,
+              texto: 'Recursos humanos, clientes y comités',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'La posibilidad de poseer bienes.',
+              texto: 'Junta directiva, gerencia y contabilidad',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'La capacidad de obrar.',
-              esCorrecta: false,
+              texto: 'Accionistas, comités y junta directiva',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'La responsabilidad limitada.',
+              texto: 'Administración, marketing y accionistas',
               esCorrecta: false,
             },
           ],
@@ -229,33 +252,28 @@ export default {
         },
         {
           id: 5,
-          texto:
-            'Fernando está revisando los documentos de su empresa puesto que junto con sus socios se disponen a cambiar de domicilio. Ante la situación se pregunta si habrán repercusiones e los derechos y obligaciones que ostenta su organización. ¿El cambio de domicilio afecta la personalidad jurídica de una persona jurídica en Colombia?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué busca garantizar la Ley SOX?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'No, el cambio de domicilio no afecta la personalidad jurídica, pero debe ser actualizado ante las autoridades.',
-              esCorrecta: true,
+              texto: 'La creación de nuevos accionistas',
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Sí, el cambio de domicilio implica la creación de una nueva persona jurídica.',
-              esCorrecta: false,
+                'La prevención de riesgos empresariales mediante transparencia y ética',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto:
-                'El domicilio solo puede ser cambiado si lo aprueba una autoridad judicial.',
+              texto: 'La reducción de regulaciones contables',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Las personas jurídicas no pueden cambiar de domicilio sin disolverse.',
+              texto: 'La eliminación de conflictos entre socios',
               esCorrecta: false,
             },
           ],
@@ -263,9 +281,9 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
-      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
-        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
   mounted() {

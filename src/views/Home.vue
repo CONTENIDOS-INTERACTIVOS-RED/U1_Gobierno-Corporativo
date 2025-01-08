@@ -22,9 +22,8 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4 El Gobierno Corporativo establece normas para una gestión empresarial transparente y responsable, promoviendo la colaboración entre accionistas, directivos y demás partes interesadas. Su estructura varía según modelos internacionales como el norteamericano, anglosajón, japonés y colombiano, cada uno adaptado a sus contextos legales y culturales. Este enfoque fomenta principios clave: responsabilidad, transparencia, equidad e independencia, esenciales para la sostenibilidad organizacional. En Colombia, incluye normativas como el Código de Buen Gobierno, pilares de transparencia y autorregulación, además de valorar la diversidad en juntas directivas para enriquecer la toma de decisiones.
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4 <em> ¡A seguir avanzando con determinación! </em>
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -146,11 +145,11 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
+    background-color: #88BBA9 !important
     color: #0B0A0A !important
   .icon
     transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    background-color: #4A665C !important
   &:hover
     .icon
       transform: scale(1.06)
